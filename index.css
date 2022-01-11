@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+
+
+.main{
+    background-image: url('Asset/background.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+
+.more{
+    margin-top: 60px;
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.pgLogo{
+    margin: 15px 0 0 220px;
+}
+
+
+
+.Navbar-links{
+    text-align: center;
+    margin-left: 290px;
+}
+
+
+
+.Navbar-links ul{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    
+}
+.Navbar-links ul li{
+    list-style: none;   
+}
+
+
+
+.Navbar-links ul li a {
+    color: #12305B;
+    margin-right: 50px;
+    font-size: 18px;
+    text-decoration: none;      
+}
+
+
+
+.Navbar-links ul li a:hover{
+    font-weight: bolder ;
+}
+
+
+
+.active{
+    font-weight: bolder;
+
+
+
+}
+.toggle-butt{
+    position: absolute;
+    top: .40rem;
+    right: 1rem;
+    display: none;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 21px;
+    width: 30px;
+    margin-top: 20px;
+    
+}
+
+
+ .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+.main-text{
+    margin-top: 140px;
+}
+
+.visit{
+    padding: 8px 50px;
+    background-color: #FC5959;   
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.main-back{
+    margin-top: 370px;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    margin-left: 150px;
+    float: left;
+}
+.buuu{
+    border: 5px solid black;
+}
+.vape{
+    width: 100%;
+}
+
+
+.vapep{
+    margin-top: 100px;
+}
+.vapep-p{
+    position: relative;
+    bottom: 24%;
+    left: 40%;
+}
+
+
+.sleep{
+    width: 100%;
+    
+}
+
+
+.our-mission{
+    margin-top: 60px;
+}
+
+.pen{
+    width: 100%;
+}
+
+.product-review{
+    padding-top: 120px;
+}
+
+
+.line{
+    margin-bottom: 80px
+}
+
+
+.footer{
+    background-color: #043C50;
+    margin-top: 140px;
+    
+}
+.footer-line{
+    transform: rotate(90deg);
+    position: relative;
+    right: 40%;
+    top: 20%;
+    width: 70%;
+}
+
+.social-links a{
+    display: inline-block;
+    background-color: #8FE2FF;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #12305B;
+    margin-top: 20px
+    
+}
+
+
+.peen{
+    font-weight:700; 
+    color: #4D533C;
+    margin-top: 63px
+}
+
+.peen1{
+    font-weight:700; 
+    color: #4D533C;
+    margin-top: 40px;
+}
+
+
+@media (max-width:870px){
+
+    .toggle-butt{
+        display: flex;
+    }
+
+    .Navbar-links{ 
+        width: 100%;
+        display: none;
+        margin: 0%;
+    }
+
+    .Navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Navbar-links ul{
+        flex-direction: column;
+        width: 100%;
+
+
+    }
+
+    .Navbar-links ul li{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+    .vapep{
+        margin-top: 0%;
+    }
+    .vapep-p{
+       display: none;
+    }
+
+
+
+    .product-review{
+        padding-top: 50px;
+    }
+
+
+    .Navbar-links.active{
+        display: flex;
+    }
+    
+
+    .pgLogo{
+        margin: 10px 0px 0 20px;
+    }
+    .main-text{
+        margin-top: 80px;
+    }
+
+    .main-back{
+        display: none;
+    }
+
+    .our-mission{
+        margin-top: 0%;
+    }
+   
+.line{
+    margin-bottom: 40px;
+}
+.footer{
+    margin-top: 20%;
+}
+
+.peen{
+    margin-top: 0%;
+}
+
+
+.peen1{
+
+    margin-top: 0%;
+}
+.more{
+    margin-top: 0%;
+} 
+.footer-line{
+    display: none;
+}   
+}

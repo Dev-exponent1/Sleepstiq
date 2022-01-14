@@ -114,12 +114,15 @@ body{
 }
 
 .main-back{
-    margin-top: 370px;
+    position: absolute;
+    left: 16.6%;
+    /* top: 80%; */
+    /* margin-top: 370px; */
     background-color: white;
     height: 70px;
-    width: 100%;
-    margin-left: 150px;
-    float: left;
+    /* width: 100%; */
+    /* margin-left: 150px; */
+    /* float: left; */
 }
 .buuu{
     border: 5px solid black;
@@ -202,8 +205,21 @@ body{
     margin-top: 40px;
 }
 
+.bruc{
+    padding-top: 70px;
+}
 
-@media (max-width:870px){
+
+
+.nooo{
+    position: relative;
+     top: 30%;
+      left:30%;
+       width: 80%;
+}
+
+
+@media (max-width:975px){
 
     .toggle-butt{
         display: flex;
@@ -236,10 +252,6 @@ body{
     .vapep{
         margin-top: 0%;
     }
-    .vapep-p{
-       display: none;
-    }
-
 
 
     .product-review{
@@ -251,7 +263,7 @@ body{
         display: flex;
     }
     
-
+ 
     .pgLogo{
         margin: 10px 0px 0 20px;
     }
@@ -289,4 +301,21 @@ body{
 .footer-line{
     display: none;
 }   
+}
+@media (max-width:768px){
+    .vapep-p{
+        display: none;
+     }
+ 
+     
+}
+
+@media (max-width:989px){
+
+    .nooo{
+    position: relative;
+    top: 30%;
+     left:50%;
+      width: 80%;
+    }
 }

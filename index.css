@@ -36,6 +36,44 @@ body{
 
 .pgLogo{
     margin: 15px 0 0 220px;
+    animation-name: logo;
+    animation-delay: 10ms;
+    animation-duration: 6s;
+    animation-fill-mode: backwards;
+}
+
+.here{
+    animation-name: leftin;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+.here1{
+
+    animation-name: rightin;
+    animation-delay: 6s;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+
+}
+
+
+.btb{
+    margin-top: 20px;
+}
+
+.btb:hover{
+    transform: translateY(10px);
+}
+
+.btb{
+
+    animation-name: btb;
+    animation-delay: 8s;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+
 }
 
 
@@ -317,5 +355,81 @@ body{
     top: 30%;
      left:50%;
       width: 80%;
+    }
+}
+
+
+
+@keyframes logo{
+    0%{
+        opacity: 0;
+        transform:translateX(-100px)
+    }
+
+
+70%{
+        transform: translateY(25px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+
+
+@keyframes leftin{
+    0%{
+
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+
+
+    }
+}
+
+@keyframes rightin{
+    0%{
+
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    70%{
+        transform: translateX(-30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+
+
+    }
+}
+
+
+
+@keyframes btb{
+    0%{
+
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    60%{
+        transform: translateX(30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+
+
     }
 }
